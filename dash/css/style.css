@@ -1,0 +1,142 @@
+.navbar {
+    border-bottom: 1px solid rgb(241, 233, 233);
+}
+#navbar{
+    position:sticky;
+    top: 0;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+ul a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+}
+ul a:hover {
+    color: rgb(255, 0, 157);
+    font-size: 18px;
+}
+.navbar button {
+    background: linear-gradient(to right, rgb(245, 84, 159), rgb(96, 16, 224));
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px 0px 15px 10px;
+}
+#lo1 {
+    color: rgb(253, 19, 175);
+}
+#lo2 {
+    color: rgb(96, 16, 224);
+}
+.container {
+    display: flex;
+}
+#hero {
+    margin-top: 50px;
+}
+.man {
+    margin-left: 71px;
+}
+.man button {
+    width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(52, 52, 214);
+    margin-left: 5px;
+    font-size: 11px;
+}
+#salon {
+    background-color: white;
+    color: rgb(253, 19, 175);
+    border: 1px solid rgb(253, 19, 175);
+    margin-left: -5px;
+}
+form input {
+    width: 480px;
+    height: 40px;
+    font-size: 11px;
+}
+form i {
+    background-color: rgb(52, 52, 214);
+    height: 40px;
+    width: 35px;
+    color: white;
+    margin-left: -5px;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 10.5px;
+    position: absolute;
+    cursor: pointer;
+}
+#choose {
+    margin-top: 10px;
+}
+.form-group label {
+    margin: 20px 0px;
+}
+.select {
+    width: 200px;
+    height: 40px;
+}
+.select select {
+    padding: 0px 10px;
+}
+#choose a {
+    padding: 0px 0px 0px 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#choose .active {
+    color: blue;
+    border-bottom: 1px solid rgb(183, 183, 250);
+    font-size: 13px;
+    font-weight: 600;
+    padding-bottom: 7px;
+    padding-left: 1px;
+    line-height: 7px;
+}
+#choose li {
+    margin-top: 70px;
+}
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+#image {
+    margin: 50px 0px;
+}
+#gallery i {
+    position: absolute;
+    padding: 20px 0px 0px 320px;
+    font-size: 25px;
+    cursor: pointer;
+}
+#gallery p {
+    position: absolute;
+    padding-left: 120px;
+    color: white;
+    margin-top: -50px;
+}
+.rect {
+    position: absolute;
+    width: 365px;
+}
+.swiper-slide img{
+margin: 5px;
+width: 365px;
+}
